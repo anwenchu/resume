@@ -31,7 +31,7 @@
 
       <view>
         <text class='skill'>技能</text>
-        <text class='tag'>掌握</text>
+        <text class='tag'>自评</text>
 
         <view class='detail' wx:for="{{technologies}}">
           <view>{{index+1}}）{{item}}</view>
@@ -39,8 +39,8 @@
       </view>
 
       <view>
-        <text class='tool'>非项目经验</text>
-        <text class='tag'>熟练</text>
+        <text class='tool'>自我介绍</text>
+        <text class='tag'>自荐</text>
         <view class='detail' wx:for="{{tools}}">
           <view>{{index+1}}）{{item}}</view>
         </view>

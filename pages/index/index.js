@@ -3,10 +3,10 @@ const config = require('../../resume.config.js');
 console.log("dfdf---",config);
 Page({
   data: {
-    blog: 'https://www.cnblogs.com/AnotherLife/',
-    phone: '13928412827',
-    mail: '13928412827@163.com',
-    github: 'https://github.com/qiujianping-work',
+    blog: 'http://www.wanshiwu.online/',
+    phone: '13231666675',
+    mail: 'anwenchu2016@gmail.com',
+    github: 'https://github.com/anwenchu',
     demo: "",
     technologies: config.technologies,
     tools: config.tools,
